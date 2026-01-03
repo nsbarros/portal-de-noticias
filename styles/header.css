@@ -22,4 +22,5 @@
     padding-block: 14px;
     border: 1px solid var(--stroke-color);
     border-inline: none; /*remove a borda left e right*/
+    justify-content: space-between;
 }
