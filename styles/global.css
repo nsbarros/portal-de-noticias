@@ -11,6 +11,7 @@
     --stroke-color: #1E293B;
     --text-color-primary: #F1F5F9;
     --text-color-secondary: #CBD5E1;
+    --stroke-color: #1E293B;
 
     --font-family: 'Archivo', sans-serif;
     --h1: 800 24px/135% var(--font-family); 
@@ -22,10 +23,22 @@
 
 }
 
+.container{
+    
+    max-width: 1280px; /*Largura maxima*/
+    padding-inline: 32px; /*Padding interno*/
+    margin-inline: auto; /*Deixar o container centralizado*/
+
+}
+
 body{
     font: var(--text);
     color: var(--text-color-primary);
     background-color: var(--bg-color);
+}
+
+head{
+    padding: 32px 20px;
 }
 
 a{
@@ -41,4 +54,14 @@ a:hover{
 
 h1, h2, h3 {
     font: inherit;
+}
+
+/*Utility first*/
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-column{
+    grid-auto-flow: column;
 }
