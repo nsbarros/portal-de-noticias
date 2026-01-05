@@ -47,17 +47,15 @@ a:hover{
     color: var(--brand-color-light);
 }
 
+img{
+    max-width: 100%; /*vitar que a img transborde */
+}
+
 
 h1, h2, h3 {
     font: inherit;
 }
 
-/*Utility first*/
-
-.grid {
-    display: grid;
-}
-
-.grid-flow-column{
-    grid-auto-flow: column;
+main {
+    margin-top: 40px;
 }
